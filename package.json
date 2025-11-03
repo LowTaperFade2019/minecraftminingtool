@@ -1,0 +1,20 @@
+{
+  "name": "minecraftminingtool",
+  "version": "1.0.0",
+  "description": "Mineflayer-based bot that mines configurable blocks with human-like movement.",
+  "main": "src/bot.js",
+  "scripts": {
+    "start": "node src/bot.js",
+    "lint": "echo \"No lint step configured\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "minecraft-data": "^3.100.0",
+    "mineflayer": "^4.33.0",
+    "mineflayer-pathfinder": "^2.4.5",
+    "vec3": "^0.1.10"
+  }
+}
